@@ -25,6 +25,26 @@ def concatenate_blobs(blobs):
         concatenated += str(blob.data_stream.read().decode('utf-8'))
     return concatenated
 
+def standardize_titles(text):
+    lines = text.split('\n')
+    special_chars = ['º','°',':','.']
+    for index, line in enumerate(lines):
+        if len(line) == 0:
+            continue
+        is_title = str.startswith(line, '#')
+        if is_title and line[-1] in special_chars:
+            line = line[:-1]
+        # cApitulo I: Subtitulo
+        is_chapter = str.startswith(line, '# ')
+        if is_chapter and ':' in line:
+            subs = line.split(':')
+            line = f'{subs[0]}\n\n## {subs[1]}'
+        line = line.replace('  ', ' ')
+        lines[index] = line
+
+    return '\n'.join(lines)
+
+
 def write_to_path(content, filepath):
     f = open(filepath, 'w')
     f.write(content)
@@ -48,7 +68,6 @@ def compile_diffed_markdown(diffed):
         status = element[0] 
         content = element[1]
         if status == -1:
-            content = content.replace('\n', '')
             result += f'<strike>{content}</strike>'
         elif status == 0:
             result += content
@@ -88,6 +107,7 @@ if __name__=='__main__':
         print(post_name)
         blobs = get_sorted_blobs_from_commit(commit)
         current_commit_content = concatenate_blobs(blobs)
+        current_commit_content = standardize_titles(current_commit_content)
 
         content = current_commit_content
         if previous_commit_content is not None:

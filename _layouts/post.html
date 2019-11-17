@@ -1,15 +1,37 @@
 ---
 layout: default
 ---
-<div class="PageNavigation">
-    {% if page.previous.url %}
-      <a class="prev" href="{{page.previous.url | relative_url }}">&laquo; {{page.previous.title}}</a>
-    {% endif %}
-    {% if page.next.url %}
-      <a class="next" href="{{page.next.url | relative_url }}">{{page.next.title}} &raquo;</a>
-    {% endif %}
-</div>
-<h1>{{ page.title | replace: "_", " " }}</h1>
-<p>{{ page.date | date_to_string}} - Firmada por {{ page.author }}</p>
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
-{{ content }}
+    <header class="post-header">
+        <div class="PageNavigation">
+            {% if page.previous.url %}
+            <a class="prev" href="{{page.previous.url | relative_url }}">&laquo; {{page.previous.title}}</a>
+            {% endif %}
+            {% if page.next.url %}
+            <a class="next" href="{{page.next.url | relative_url }}">{{page.next.title}} &raquo;</a>
+            {% endif %}
+        </div>
+
+        <h1 class="post-title p-name" itemprop="name headline">{{ page.title | replace: "_", " " | escape }}</h1>
+        <p class="post-meta">
+            <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                {{ page.date | date: date_format }}
+            </time>
+            {%- if page.author -%}
+            • Firmada por <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card"
+                    itemprop="name">{{ page.author | escape }}</span></span>
+            {%- endif -%}</p>
+    </header>
+
+    <div class="post-content e-content" itemprop="articleBody">
+        {{ content }}
+    </div>
+
+    {%- if site.disqus.shortname -%}
+    {%- include disqus_comments.html -%}
+    {%- endif -%}
+
+    <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>

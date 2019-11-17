@@ -3,16 +3,20 @@
     display: block;
     width: auto;
     overflow: hidden;
-  }
-  
-  .PageNavigation a {
+}
+
+.PageNavigation a {
     display: block;
     width: 50%;
     float: left;
     margin: 1em 0;
-  }
-  
+}
 
-  .PageNavigation .next {
+
+.PageNavigation .next {
     text-align: right;
-  }
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

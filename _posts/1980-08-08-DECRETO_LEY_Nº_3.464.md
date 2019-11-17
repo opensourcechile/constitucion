@@ -6,9 +6,11 @@ author: Augusto Pinochet
 previous_post: None
 ---
 
-# Capítulo I: BASES DE LA INSTITUCIONALIDAD
+# Capítulo I
 
-### Artículo 1º
+## BASES DE LA INSTITUCIONALIDAD
+
+### Artículo 1
 
 Los hombres nacen libres e iguales en dignidad y derechos.
 
@@ -20,25 +22,25 @@ El Estado está al servicio de la persona humana y su finalidad es promover el b
 
 Es deber del Estado resguardar la seguridad nacional, dar protección a la población y a la familia, propender al fortalecimiento de ésta, promover la integración armónica de todos los sectores de la Nación y asegurar el derecho de las personas a participar con igualdad de oportunidades en la vida nacional.
 
-### Artículo 2º
+### Artículo 2
 
 Son emblemas nacionales la bandera nacional, el escudo de armas de la República y el himno nacional.
 
-### Artículo 3º
+### Artículo 3
 
 El Estado de Chile es unitario. Su territorio se divide en regiones. La Ley propenderá a que su administración sea funcional y territorialmente descentralizada.
 
-### Artículo 4º
+### Artículo 4
 
 Chile es una república democrática.
 
-### Artículo 5º
+### Artículo 5
 
 La soberanía reside esencialmente en la Nación. Su ejercicio se realiza por el pueblo a través del plebiscito y de elecciones periódicas y, también, por las autoridades que esta Constitución establece. Ningún sector del pueblo ni individuo alguno puede atribuirse su ejercicio.
 
 El ejercicio de la soberanía reconoce como limitación el respeto a los derechos esenciales que emanan de la naturaleza humana.
 
-### Artículo 6º
+### Artículo 6
 
 Los órganos del Estado deben someter su acción a la Constitución y a las normas dictadas conforme a ella.
 
@@ -46,7 +48,7 @@ Los preceptos de esta Constitución obligan tanto a los titulares o integrantes 
 
 La infracción de esta norma generará las responsabilidades y sanciones que determine la ley.
 
-### Artículo 7º
+### Artículo 7
 
 Los órganos del Estado actúan válidamente previa investidura regular de sus integrantes, dentro de su competencia y en la forma que prescriba la ley.
 
@@ -54,7 +56,7 @@ Ninguna magistratura, ninguna persona ni grupo de personas pueden atribuirse, ni
 
 Todo acto en contravención a este artículo es nulo y originará las responsabilidades y sanciones que la ley señale.
 
-### Artículo 8º
+### Artículo 8
 
 Todo acto de persona o grupo destinado a propagar doctrinas que atenten contra la familia, propugnen la violencia o una concepción de la sociedad, del Estado o del orden jurídico, de carácter totalitario o fundada en la lucha de clases, es ilícito y contrario al ordenamiento institucional de la República.
 
@@ -68,7 +70,7 @@ Las personas sancionadas en virtud de este precepto, no podrán ser objeto de re
 
 La duración de las inhabilidades contempladas en este artículo se elevará al doble en caso de reincidencia.
 
-### Artículo 9º
+### Artículo 9
 
 El terrorismo, en cualquiera de sus formas, es por esencia contrario a los derechos humanos.
 
@@ -76,7 +78,9 @@ Una ley de quórum calificado determinará las conductas terroristas y su penali
 
 No procederá respecto de estos delitos la amnistía ni el indulto, como tampoco la libertad provisional respecto de los procesados por ellos. Estos delitos serán considerados siempre comunes y no políticos para todos los efectos legales.
 
-# Capítulo II: NACIONALIDAD Y CIUDADANÍA
+# Capítulo II
+
+## NACIONALIDAD Y CIUDADANÍA
 
 ### Artículo 10
 
@@ -160,7 +164,9 @@ Habrá un sistema electoral público. Una ley orgánica constitucional determina
 
 El resguardo del orden público durante los actos electorales y plebiscitarios corresponderá a las Fuerzas Armadas y Carabineros del modo que indique la ley.
 
-# Capítulo III: DE LOS DERECHOS Y DEBERES CONSTITUCIONALES
+# Capítulo III
+
+## DE LOS DERECHOS Y DEBERES CONSTITUCIONALES
 
 ### Artículo 19
 
@@ -404,7 +410,9 @@ Los grupos intermedios de la comunidad y sus dirigentes que hagan mal uso de la 
 
 La ley establecerá las sanciones que corresponda aplicar a los dirigentes gremiales que intervengan en actividades político partidistas y a los dirigentes de los partidos políticos, que interfieran en el funcionamiento de las organizaciones gremiales y demás grupos intermedios que la propia ley señale.
 
-# Capítulo IV: GOBIERNO
+# Capítulo IV
+
+## GOBIERNO
 
 ## Presidente de la República
 
@@ -610,7 +618,9 @@ En ningún caso las medidas de restricción y privación de la libertad podrán 
 
 9º.- Una ley orgánica constitucional podrá regular los estados de excepción y facultar al Presidente de la República para ejercer por sí o por otras autoridades las atribuciones señaladas precedentemente, sin perjuicio de lo establecido en los estados de emergencia y de catástrofe.
 
-# Capítulo V: CONGRESO NACIONAL
+# Capítulo V
+
+## CONGRESO NACIONAL
 
 ### Artículo 42
 
@@ -994,7 +1004,9 @@ La promulgación deberá hacerse siempre dentro del plazo de diez días, contado
 
 La publicación se hará dentro de los cinco días hábiles siguientes a la fecha en que quede totalmente tramitado el decreto promulgatorio.
 
-# Capítulo VI: PODER JUDICIAL
+# Capítulo VI
+
+## PODER JUDICIAL
 
 ### Artículo 73
 
@@ -1056,7 +1068,9 @@ Conocerá, además, de las contiendas de competencia que se susciten entre las a
 
 La Corte Suprema, de oficio o a petición de parte, en las materias de que conozca, o que le fueren sometidas en recurso interpuesto en cualquier gestión que se siga ante otro tribunal, podrá declarar inaplicable para esos casos particulares todo precepto legal contrario a la Constitución. Este recurso podrá deducirse en cualquier estado de la gestión, pudiendo ordenar la Corte la suspensión del procedimiento.
 
-# Capítulo VII: TRIBUNAL CONSTITUCIONAL
+# Capítulo VII
+
+## TRIBUNAL CONSTITUCIONAL
 
 ### Artículo 81
 
@@ -1148,7 +1162,9 @@ Las disposiciones que el Tribunal declare inconstitucionales no podrán converti
 
 Resuelto por el Tribunal que un precepto legal determinado es constitucional, la Corte Suprema no podrá declararlo inaplicable por el mismo vicio que fue materia de la sentencia.
 
-# Capítulo VIII: JUSTICIA ELECTORAL
+# Capítulo VIII
+
+## JUSTICIA ELECTORAL
 
 ### Artículo 84
 
@@ -1186,7 +1202,9 @@ La ley determinará las demás atribuciones de éstos tribunales y regulara su o
 
 Anualmente, se destinaran en la ley de Presupuesto de la Nación los fondos necesarios para la organización y funcionamiento de éstos tribunales, cuyas plantas, remuneraciones y estatuto del personal serán establecidos por ley.
 
-# Capítulo IX: CONTRALORÍA GENERAL DE LA REPÚBLICA
+# Capítulo IX
+
+## CONTRALORÍA GENERAL DE LA REPÚBLICA
 
 ### Artículo 87
 
@@ -1208,7 +1226,9 @@ En lo demás, la organización, el funcionamiento y las atribuciones de la Contr
 
 Las Tesorerías del Estado no podrán efectuar ningún pago sino en virtud de un decreto o resolución expedido por autoridad competente, en que se exprese la ley o la parte del presupuesto que autorice aquel gasto. Los pagos se efectuaran considerando, además, el orden cronológico establecido en ella y previa refrendación presupuestaria del documento que ordene el pago.
 
-# Capítulo X: FUERZAS ARMADAS, DE ORDEN Y SEGURIDAD PÚBLICA
+# Capítulo X
+
+## FUERZAS ARMADAS, DE ORDEN Y SEGURIDAD PÚBLICA
 
 ### Artículo 90
 
@@ -1242,7 +1262,9 @@ Los nombramientos, ascensos y retiros de los oficiales de las Fuerzas Armadas y 
 
 El ingreso, los nombramientos, ascensos y retiros en Investigaciones se efectuaran en conformidad a su ley orgánica.
 
-# Capítulo XI: CONSEJO DE SEGURIDAD NACIONAL
+# Capítulo XI
+
+## CONSEJO DE SEGURIDAD NACIONAL
 
 ### Artículo 95
 
@@ -1270,7 +1292,9 @@ Los acuerdos u opiniones a que se refiere la letra b) serán públicos o reserva
 
 Un reglamento dictado por el propio Consejo establecerá las demás disposiciones concernientes a su organización y funcionamiento.
 
-# Capítulo XII: BANCO CENTRAL
+# Capítulo XII
+
+## BANCO CENTRAL
 
 ### Artículo 97
 
@@ -1286,7 +1310,9 @@ Con todo, en caso de guerra exterior o de peligro de ella, que calificara el Con
 
 El Banco Central no podrá adoptar ningún acuerdo que signifique de una manera directa o indirecta establecer normas o requisitos diferentes o discriminatorios en relación a personas, instituciones o entidades que realicen operaciones de la misma naturaleza.
 
-# Capítulo XIII: GOBIERNO Y ADMINISTRACIÓN INTERIOR DEL ESTADO
+# Capítulo XIII
+
+## GOBIERNO Y ADMINISTRACIÓN INTERIOR DEL ESTADO
 
 ### Artículo 99
 
@@ -1398,7 +1424,9 @@ La ley determinará la forma de resolver las cuestiones de competencia que pudie
 
 Asimismo, establecerá el modo de dirimir las discrepancias que se produzcan entre el intendente y los consejos regionales, y entre el alcalde y los consejos comunales, con motivo de la aprobación de los proyectos relativos a los planes de desarrollo y de los presupuestos, respectivamente.
 
-# Capítulo XIV: REFORMA DE LA CONSTITUCIÓN
+# Capítulo XIV
+
+## REFORMA DE LA CONSTITUCIÓN
 
 ### Artículo 116
 
