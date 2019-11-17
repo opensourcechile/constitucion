@@ -20,3 +20,12 @@
 p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+.added {
+    background-color: green;
+}
+
+.removed {
+    background-color: red;
+    text-decoration: line-through;
+}

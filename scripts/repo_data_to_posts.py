@@ -1,3 +1,4 @@
+import difflib
 from git import Repo
 from datetime import datetime
 from diff_match_patch import diff_match_patch
@@ -62,17 +63,44 @@ def diff_contents(previous, current):
     dmp.diff_cleanupSemantic(diff)
     return diff
 
+def diff_line_by_line(previous, current):
+    diff = difflib.ndiff(previous.split('\n'), current.split('\n'))
+    result = []
+    for line in diff:
+        first = line[0]
+        content = line[2:]
+        if first == '-':
+            result.append(f'<div class="removed" markdown="1">{content}\n</div>')
+        elif first == '+':
+            result.append(f'<div class="added" markdown="1">{content}\n</div>')
+        else:
+            result.append(content)
+    return '\n'.join(result)
+
+
 def compile_diffed_markdown(diffed):
     result = ''
     for element in diffed:
         status = element[0] 
         content = element[1]
         if status == -1:
-            result += f'<strike>{content}</strike>'
+            original_content = content
+            content = content.replace('\n', '')
+            content = content.replace(' ', '')
+            if len(content) == 0:
+                continue
+            else:
+                result += f'<span class="removed">{original_content}</span>'
         elif status == 0:
             result += content
         elif status == 1:
-            result += f'<b>{content}</b>'
+            original_content = content
+            content.replace('\n', '')
+            content.replace(' ', '')
+            if len(content) == 0:
+                result += original_content
+            else:
+                result += f'<span class="added">{original_content}</span>'
     return result
 
 def diffed_markdown(previous, current):
@@ -111,7 +139,7 @@ if __name__=='__main__':
 
         content = current_commit_content
         if previous_commit_content is not None:
-            content = diffed_markdown(previous_commit_content, current_commit_content)
+            content = diff_line_by_line(previous_commit_content, current_commit_content)
 
         jekyll_post = build_jekyll_post(content, title, date, author, previous_post_name)
         previous_post_name = post_name
