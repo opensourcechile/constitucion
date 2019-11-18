@@ -69,7 +69,7 @@ def diff_line_by_line(previous, current):
     diff = difflib.ndiff(previous.split('\n'), current.split('\n'))
 
     current_h3 = None
-    modified_h3 = set()
+    modified_h3 = []
 
     for line in diff:
         first = line[0]
@@ -84,11 +84,11 @@ def diff_line_by_line(previous, current):
             result.append(f'<div class="removed" markdown="1">{content}\n</div>')
         elif first == '+':
             result.append(f'<div class="added" markdown="1">{content}\n</div>')
-        else:
+        elif first == ' ':
             result.append(content)
 
-        if first in ['-', '+'] and current_h3 is not None:
-            modified_h3.add(current_h3)
+        if first in ['-', '+'] and current_h3 is not None and current_h3 not in set(modified_h3):
+            modified_h3.append(current_h3)
 
     return ('\n'.join(result), modified_h3)
 
