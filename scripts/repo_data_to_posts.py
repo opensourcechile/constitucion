@@ -64,18 +64,33 @@ def diff_contents(previous, current):
     return diff
 
 def diff_line_by_line(previous, current):
-    diff = difflib.ndiff(previous.split('\n'), current.split('\n'))
+    ### this should be in its own class
     result = []
+    diff = difflib.ndiff(previous.split('\n'), current.split('\n'))
+
+    current_h3 = None
+    modified_h3 = set()
+
     for line in diff:
         first = line[0]
         content = line[2:]
+
+        is_h3 = content.startswith('### ')
+        if is_h3:
+            current_h3 = content[4:]
+            content = content + ' {#' + current_h3.lower().replace(' ', '-').translate({ord(c): None for c in 'áéíóú'}) + '}'
+
         if first == '-':
             result.append(f'<div class="removed" markdown="1">{content}\n</div>')
         elif first == '+':
             result.append(f'<div class="added" markdown="1">{content}\n</div>')
         else:
             result.append(content)
-    return '\n'.join(result)
+
+        if first in ['-', '+'] and current_h3 is not None:
+            modified_h3.add(current_h3)
+
+    return ('\n'.join(result), modified_h3)
 
 
 def compile_diffed_markdown(diffed):
@@ -107,18 +122,21 @@ def diffed_markdown(previous, current):
     diffed = diff_contents(previous, current)
     return compile_diffed_markdown(diffed)
 
-def build_jekyll_post(content, title, date, author, previous_post_name):
-    header = build_header(title, date, author, previous_post_name)
+def build_jekyll_post(content, title, date, author, previous_post_name, modified_sections):
+    header = build_header(title, date, author, previous_post_name, modified_sections)
     return f'''---\n{header}\n---\n{content}'''
 
-def build_header(title, date, author, previous_post_name):
+def build_header(title, date, author, previous_post_name, modified_sections):
     lines = [
         'layout: post',
         f'title: "{title}"',
         f'date: {date}',
         f'author: {author}',
-        f'previous_post: {previous_post_name}'
+        f'previous_post: {previous_post_name}',
+        'modified_sections:'
     ]
+    for section in modified_sections:
+        lines.append(f' - {section.lower().replace(" ", "-")}')
     return '\n'.join(lines)
 
 
@@ -138,10 +156,16 @@ if __name__=='__main__':
         current_commit_content = standardize_titles(current_commit_content)
 
         content = current_commit_content
+        modified_sections = set()
         if previous_commit_content is not None:
-            content = diff_line_by_line(previous_commit_content, current_commit_content)
+            content, modified_sections = diff_line_by_line(previous_commit_content, current_commit_content)
 
-        jekyll_post = build_jekyll_post(content, title, date, author, previous_post_name)
+        jekyll_post = build_jekyll_post(content,
+                                        title,
+                                        date,
+                                        author,
+                                        previous_post_name,
+                                        modified_sections)
         previous_post_name = post_name
         previous_commit_content = current_commit_content
 

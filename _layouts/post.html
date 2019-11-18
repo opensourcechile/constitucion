@@ -1,6 +1,12 @@
 ---
 layout: default
 ---
+<script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
+<script>addBackToTop({
+  diameter: 56,
+  backgroundColor: 'rgb(255, 82, 82)',
+  textColor: '#fff'
+})</script>
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
     <header class="post-header">
@@ -22,11 +28,24 @@ layout: default
             {%- if page.author -%}
             • Firmada por <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card"
                     itemprop="name">{{ page.author | escape }}</span></span>
-            {%- endif -%}</p>
+            {%- endif -%}
+        </p>
+        <div>
+            Secciones modificadas: 
+            <ul>
+            {%- for section in page.modified_sections -%}
+                <li>
+                    <a href="#{{section | remove: 'á' | remove: 'é' | remove: 'í' | remove: 'ó' | remove: 'ú' }}">
+                        {{ section | capitalize | replace: '-', ' ' }}
+                    </a>
+                </li>
+            {%- endfor -%}
+            </ul>
+        </div>
     </header>
 
     <div class="post-content e-content" itemprop="articleBody">
-        {% include anchor_headings.html html=content %}
+        {% include anchor_headings.html html=content anchorClass="toc-anchor" anchorBody="#" %}
     </div>
 
     {%- if site.disqus.shortname -%}
