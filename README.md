@@ -12,7 +12,7 @@ a las versiones de los artículos que les interesan.
 Estamos centrando la discusión sobre este sitio en su [repositorio en Github](https://github.com/opensourcechile/constitucion).
 
 1. ¿Tienes ideas sobre cosas que podemos mejorar del sitio? ¿Has encontrado
-errores? Por favor crea un nuevo Issue describiendo tu sugerencia
+errores? Por favor crea un [nuevo Issue](https://github.com/opensourcechile/constitucion/issues/new) describiendo tu sugerencia
 de forma lo más detallada posible. Idealmente incluye pantallazos,
 dibujos, etc.
 
