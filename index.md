@@ -13,7 +13,7 @@ Aquí puedes leer la Constitución de Chile, ver los detalles
 de las distintas leyes que lo han modificado y compartir links directos
 a las versiones de los artículos que te interesan.
 
-El código de este blog es abierto, y se encuentra accesible en (su repositorio en Github)[https://github.com/opensourcechile/constitucion]
+El código de este blog es abierto, y se encuentra accesible en [su repositorio en Github](https://github.com/opensourcechile/constitucion)
 
 ## Cómo colaborar
 
