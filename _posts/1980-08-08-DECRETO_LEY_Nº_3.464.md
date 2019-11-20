@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "DECRETO_LEY_Nº_3.464"
+title: "Decreto ley nº 3.464"
+description: "Firmada por Augusto Pinochet el 1980-08-08"
 date: 1980-08-08
 author: Augusto Pinochet
 previous_post: None

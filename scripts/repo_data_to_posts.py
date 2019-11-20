@@ -129,7 +129,8 @@ def build_jekyll_post(content, title, date, author, previous_post_name, modified
 def build_header(title, date, author, previous_post_name, modified_sections):
     lines = [
         'layout: post',
-        f'title: "{title}"',
+        f'title: "{title.replace("_", " ").capitalize()}"',
+        f'description: "Firmada por {author} el {date}"',
         f'date: {date}',
         f'author: {author}',
         f'previous_post: {previous_post_name}',
