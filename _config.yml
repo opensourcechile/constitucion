@@ -20,8 +20,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   de las distintas leyes que lo han modificado y compartir links directos
   a las versiones de los artículos que te interesan. Puedes
   colaborar en https://github.com/opensourcechile/constitucion
-baseurl: "/constitucion" # the subpath of your site, e.g. /blog
-url: "https://opensourcechile.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://leyabierta.cl" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: opensourcechile
 
 # Build settings
