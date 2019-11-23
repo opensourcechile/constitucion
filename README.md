@@ -1,4 +1,4 @@
-# Historial de cambios de la Constitución
+# Constitución abierta
 
 En este blog se documentan las leyes que han modificado la Constitución.
 Está construido con [Jekyll](https://jekyllrb.com/), y extrae información sobre la Constitución desde [opensourcechile/constitucion_chile](https://github.com/opensourcechile/constitucion_chile)
