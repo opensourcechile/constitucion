@@ -1750,3 +1750,14 @@ Sergio Badiola Broberg, General de Brigada, Ministro Secretario General de Gobie
 Lo que transcribo a Ud. para su conocimiento.
 
 Mario Duvauchelle Rodríguez, Capitán de Navío JT, Secretario de Legislación de la Junta de Gobierno.
+
+
+## Contenido original de la ley
+
+DECRETO LEY Nº 3.464
+
+VISTO: Lo dispuesto en los decretos leyes Nºs. 1 y 128, de 1973; 527 y 788, de 1974; y 991, de 1976,
+
+La Junta de Gobierno de la República de Chile, en ejercicio de la potestad constituyente, ha acordado aprobar como nueva Constitución Política de la República de Chile, sujeta a ratificación por plebiscito, el siguiente
+
+DECRETO LEY: CONSTITUCIÓN POLÍTICA DE LA REPÚBLICA DE CHILE

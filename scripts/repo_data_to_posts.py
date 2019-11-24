@@ -122,9 +122,16 @@ def diffed_markdown(previous, current):
     diffed = diff_contents(previous, current)
     return compile_diffed_markdown(diffed)
 
-def build_jekyll_post(content, title, date, author, previous_post_name, modified_sections):
+def build_jekyll_post(content, title, date, author, previous_post_name, modified_sections, law_content):
     header = build_header(title, date, author, previous_post_name, modified_sections)
-    return f'''---\n{header}\n---\n{content}'''
+    law_content = build_law_content_section(law_content)
+    return f'''---\n{header}\n---\n{content}\n\n{law_content}'''
+
+def build_law_content_section(law_content):
+    lines = ['## Contenido original de la ley\n']
+    for line in law_content.split('\n'):
+        lines.append(line.strip())
+    return '\n'.join(lines)
 
 def build_header(title, date, author, previous_post_name, modified_sections):
     lines = [
@@ -166,7 +173,8 @@ if __name__=='__main__':
                                         date,
                                         author,
                                         previous_post_name,
-                                        modified_sections)
+                                        modified_sections,
+                                        commit.message)
         previous_post_name = post_name
         previous_commit_content = current_commit_content
 
