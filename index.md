@@ -4,6 +4,7 @@
 
 layout: home
 list_title: Leyes que modifican la Constitución
+title: Cómo funciona
 ---
 
 En este blog se documentan las leyes que han modificado la Constitución.
@@ -14,6 +15,21 @@ de las distintas leyes que lo han modificado y compartir links directos
 a las versiones de los artículos que te interesan.
 
 El código de este blog es abierto, y se encuentra accesible en [su repositorio en Github](https://github.com/opensourcechile/constitucion)
+
+<div class="added" markdown="1">El texto en color verde como éste, representa el texto agregado con una ley a la Constitución.
+</div>
+
+<div class="removed" markdown="1">El texto en rojo corresponde a la parte obsoleta a partir de esta ley.
+</div>
+
+El texto sin colores es el que no ha sido modificado.
+
+
+## Secciones
+
+- [Línea de tiempo](/timeline.html)
+- [Glosario](/glosario.md)
+- Constitución actual (en desarrollo)
 
 ## Cómo colaborar
 
@@ -32,3 +48,4 @@ de la sección de Issues, o avanzar con alguna de las cosas en la lista de pendi
 ## Cosas pendientes
 
 Tenemos una lista de mejoras por haer en la sección de [Issues](https://github.com/opensourcechile/constitucion/issues) del repositorio.
+

@@ -12,10 +12,12 @@ title: Línea de tiempo
             {{ step.enddate | date: '%m/%Y' }}{% endif %}</h2>
         <div class="card-panel">
             <h3 class="card-title">
+                <a href="{{step.url}}">
                 {{ step.title }}
+                </a>
             </h3>
             <p>
-                {{ step.author }}
+                Firmado por: {{ step.author }}
             </p>
             {%- if step.modified_sections.size > 0 -%}
             <div>
