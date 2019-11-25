@@ -13,7 +13,7 @@ La actual Constitución, que está vigente desde 1980, está dividida en base a 
 
 ## Inciso
 
-Los incisos expresan conceptos separadamente, en cláusulas breves y sueltas, generalmente dentro de cada artículo.
+Los incisos son los distintos párrafos de un artículo, separados por un punto aparte.
 
 ## Ciudadanos
 
