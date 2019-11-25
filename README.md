@@ -46,8 +46,11 @@ El archivo ubicado en `scripts/repo_data_to_posts.py`:
 ## Como correr localmente
 
 1 - Instala (ruby)[https://www.ruby-lang.org/es/documentation/installation/]
+
 2 - Instala Jekyll (Instrucciones (en inglés) para [Windows](https://jekyllrb.com/docs/installation/windows/), [Mac](https://jekyllrb.com/docs/installation/macos/))
+
 3 - Clona este repositorio. [Más info aquí](https://help.github.com/es/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
+
 4 - En la línea de comandos:
 
 ```bash
@@ -56,6 +59,7 @@ bundle install ## Instala las dependencias
 ```
 
 5 - Finalmente, ejecuta `bundle exec jekyll serve`
+
 6 - En el navegador (Chrome, por ejemplo) ve a la URL `http://localhost:4000/`
 
 Ahora deberías ver los contenidos actuales del blog en tu navegador.
