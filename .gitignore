@@ -4,3 +4,4 @@ _site
 data/*
 venv
 .vscode
+**/.DS_Store
