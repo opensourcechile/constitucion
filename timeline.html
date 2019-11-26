@@ -18,7 +18,8 @@ title: Línea de tiempo
                 {% assign m = step.enddate | date: "%-m" | minus: 1 %}
                 {{ site.data.es_months.months[m] }} de
                 {{ step.enddate | date: "%Y" }}
-            {% endif %}</h2>
+            {% endif %}
+        </h2>
         <div class="card-panel">
             <h3 class="card-title">
                 <a href="{{step.url}}">
