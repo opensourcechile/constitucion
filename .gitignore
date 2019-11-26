@@ -5,3 +5,6 @@ data/*
 venv
 .vscode
 **/.DS_Store
+**/*.pyc
+**.pyc
+.idea
