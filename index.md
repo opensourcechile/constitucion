@@ -29,7 +29,7 @@ El texto sin colores es el que no ha sido modificado.
 
 - [Línea de tiempo](/timeline.html)
 - [Glosario](/glosario.md)
-- Constitución actual (en desarrollo)
+- [Constitución actual](/actual.html)
 
 ## Cómo colaborar
 

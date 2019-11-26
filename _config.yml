@@ -38,6 +38,7 @@ plugins:
 exclude:
   - data
   - venv
+  - scripts
 #   - Gemfile
 #   - Gemfile.lock
 #   - node_modules

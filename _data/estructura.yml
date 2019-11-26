@@ -1,0 +1,645 @@
+capítulo_i:
+  título: Bases de la Institucionalidad
+  artículos:
+    1:
+      temas:
+        - Dignidad humana
+        - Familia
+        - Grupos intermedios
+        - Principio de servicialidad
+        - Deberes del Estado
+    2:
+      temas:
+        - Emblemas nacionales
+    3:
+      temas:
+        - Organización del Estado
+    4:
+      temas:
+        - Forma de gobierno
+    5:
+      temas:
+        - Soberanía
+    6:
+      temas:
+        - Principio de legalidad
+    7:
+      temas:
+        - Principio de juridicidad
+    8:
+      temas:
+        - Principio de probidad
+        - Principio de publicidad
+    9:
+      temas:
+        - Proscripción del terrorismo
+capítulo_ii:
+  título: Nacionalidad y Ciudadanía
+  artículos:
+    10:
+      temas:
+        - Adquisición de nacionalidad chilena
+    11:
+      temas:
+        - Pérdida de nacionalidad chilena
+    12:
+      temas:
+        - Amparo por privación o desconocimiento de la nacionalidad chilena
+    13:
+      temas:
+        - Ciudadanía
+    14:
+      temas:
+        - Derechos políticos para extranjeros
+    15:
+      temas:
+        - Voto personal, igualitario, secreto y voluntario 
+        - Plebiscitos
+    16:
+      temas:
+        - Suspensión del derecho de sufragio
+    17:
+      temas:
+        - Pérdida de la calidad de ciudadano
+    18:
+      temas:
+        - Sistema electoral
+capítulo_iii:
+  título: Derechos y deberes fundamentales
+  artículos:
+    19:
+      temas:
+        - Derechos fundamentales consagrados
+      numerales:
+        1: 
+          temas:
+            - Derecho a la vida e integridad física
+            - Protección de la vida del nasciturus
+        2:
+          temas:
+            - Derecho a la igualdad ante la ley
+            - Proscripción de la arbitrariedad
+        3:
+          temas:
+            - Derecho a la igual protección de la ley en el ejercicio de los derechos
+            - Debido proceso
+        4:
+          temas:
+            - Derecho a la vida privada y honra
+        5:
+          temas:
+            - Derecho a la inviolabilidad del hogar y comunicaciones privadas
+        6:
+          temas:
+            - Libertad de conciencia
+            - Exenciones a las iglesias
+        7:
+          temas:
+            - Libertad personal y seguridad individual
+        8:
+          temas:
+            - Derecho a vivir en un medio ambiente libre de contaminación
+        9:
+          temas:
+            - Derecho a la protección a la salud
+        10:
+          temas:
+            - Derecho a la educación
+        11:
+          temas:
+            - Libertad de enseñanza
+        12:
+          temas:
+            - Libertad de emitir opinión e informar sin censura previa
+            - Consejo Nacional de Televisión como órgano constitucionalmente autónomo
+        13:
+          temas:
+            - Derecho de reunión
+        14:
+          temas:
+            - Derecho de petición
+        15:
+          temas:
+            - Derecho de asociación
+        16:
+          temas:
+            - Libertad de trabajo
+            - Derecho a la negociación colectiva
+        17:
+          temas:
+            - Admisión a funciones y empleos públicos
+        18:
+          temas:
+            - Derecho a la seguridad social
+        19:
+          temas:
+            - Derecho a sindicarse
+        20:
+          temas:
+            - Igual repartición de los tributos y cargas públicas
+        21:
+          temas:
+            - Derecho a desarrollar cualquier actividad económica
+            - Principio de subsidiariedad
+        22:
+          temas:
+            - No discriminación arbitraria en el trato en materia económica
+        23:
+          temas:
+            - Libertad para adquirir el dominio
+        24:
+          temas:
+            - Derecho de propiedad
+            - Dominio estatal sobre las minas
+            - Concesiones mineras y dominio sobre las mismas
+            - Propiedad sobre los derechos de aguas
+        25:
+          temas:
+            - Libertad de crear y difundir las artes
+            - Derecho de autor
+        26:
+          temas:
+            - Núcleo esencial de los derechos fundamentales
+    20:
+      temas:
+        - Recurso de protección. Derechos que resguarda
+    21:
+      temas:
+        - Recurso de amparo
+    22:
+      temas:
+        - Deber de honrar a la patria y emblemas nacionales
+        - Servicio militar obligatorio
+    23:
+      temas:
+        - Grupos intermedios
+capítulo_iv:
+  título: Gobierno
+  artículos:
+    24:
+      temas:
+        - Presidente de la República
+        - Jefe de Estado
+    25:
+      temas:
+        - Requisitos para ser Presidente
+        - Duración presidencia.
+    26:
+      temas:
+        - Elección del Presidente
+    27:
+      temas:
+        - Calificación de la elección presidencial
+    28:
+      temas:
+        - Subrogancias del Presidente por impedimento para tomar posesión en el cargo.
+    29:
+      temas:
+        - Subrogancias del Presidente por impedimento temporal
+    30:
+      temas:
+        - Cesación en el cargo de Presidente
+    31:
+      temas:
+        - Atribuciones del Presidente designado por el Congreso Pleno o del Vicepresidente de la República.
+    32:
+      temas:
+        - Atribuciones del Presidente de la República.
+    33:
+      temas:
+        - Ministros de Estado
+    34:
+      temas:
+        - Requisitos para ser Ministro. Reemplazo
+    35:
+      temas:
+        - Responsabilidad de los Ministros
+    36:
+      temas:
+        - Responsabilidad de los Ministros
+    37:
+      temas:
+        - Asistencia de Ministros a sesiones del Congreso
+    37 bis:
+      temas:
+        - Incompatibilidades y prohibiciones de los Ministros
+    38:
+      temas:
+        - Bases generales de la Administración del Estado
+    39:
+      temas:
+        - Estados de excepción constitucional
+    40:
+      temas:
+        - Estado de asamblea 
+        - Estado de sitio
+    41:
+      temas:
+        - Estado de catástrofe
+    42:
+      temas:
+        - Estado de emergencia
+    43:
+      temas:
+        - Suspensión de derechos constitucionales durante estados de excepción
+    44:
+      temas:
+        - Regulación por ley orgánica constitucional de los estados de excepción
+    45:
+      temas:
+        - Atribuciones de los tribunales de justicia durante los estados de excepción
+capítulo_v:
+  título: Congreso Nacional
+  artículos:
+    46:
+      temas:
+        - Congreso bicameral
+    47:
+      temas:
+        - Composición Cámara de Diputados
+    48:
+      temas:
+        - Requisitos para ser Diputado
+    49:
+      temas:
+        - Composición del Senado
+    50:
+      temas:
+        - Requisitos para ser Senador
+    51:
+      temas:
+        - Elecciones y reemplazo de parlamentarios
+    52:
+      temas:
+        - Atribuciones de la Cámara de Diputados
+    53:
+      temas:
+        - Atribuciones del Senado
+    54:
+      temas:
+        - Atribuciones del Congreso
+    55:
+      temas:
+        - Instalación del Congreso
+        - Acusaciones constitucionales
+    56:
+      temas:
+        - Quórum para sesionar
+    56 bis:
+      temas:
+        - Cuenta pública del Congreso
+    57:
+      temas:
+        - Inhabilidades para ser parlamentario
+    58:
+      temas:
+        - Incompatibilidades de los cargos parlamentarios
+    59:
+      temas:
+        - Excepciones a incompatibilidades parlamentarias en caso de guerra
+    60:
+      temas:
+        - Causales de cesación en el cargo parlamentario
+    61:
+      temas:
+        - Fuero parlamentario
+    62:
+      temas:
+        - Dieta parlamentaria
+    63:
+      temas:
+        - Materias de ley
+    64:
+      temas:
+        - Norma que permite dictar “decretos con fuerza de ley”.
+    65:
+      temas:
+        - Formación de la ley
+        - Materias de iniciativa exclusiva del Presidente
+    66:
+      temas:
+        - Leyes de quórum calificado
+    67:
+      temas:
+        - Reglas sobre la ley de presupuestos
+    68:
+      temas:
+        - Plazo para volver a presenta proyectos rechazados
+    69:
+      temas:
+        - Adiciones o correcciones a proyectos de ley
+    70:
+      temas:
+        - Comisión mixta para proyectos rechazados
+    71:
+      temas:
+        - Comisión mixta para proyectos con adiciones y correcciones
+    72:
+      temas:
+        - Promulgación de la ley
+    73:
+      temas:
+        - Veto del Presidente de la República
+    74:
+      temas:
+        - Urgencias
+    75:
+      temas:
+        - Promulgación en caso de silencio del Presidente
+capítulo_vi:
+  título: Poder Judicial
+  artículos:
+    76:
+      temas:
+        - Principio de plenitud jurisdiccional
+        - Principio de inexcusabilidad
+        - Principio de independencia
+        - Principio de Imperio
+    77:
+      temas:
+        - Regulación de la organización y atribuciones de los tribunales por ley orgánica constitucional.
+    78:
+      temas:
+        - Nombramiento jueces
+    79:
+      temas:
+        - Responsabilidad funcionaria o ministerial de los jueces
+    80:
+      temas:
+        - Principio de inamovilidad
+    81:
+      temas:
+        - Fuero jueces
+    82:
+      temas:
+        - Superintendencia directiva, correccional y económica por parte de la Corte Suprema.
+capítulo_vii:
+  título: Ministerio Público
+  artículos:
+    83:
+      temas:
+        - Atribuciones del Ministerio Público
+    84:
+      temas:
+        - Regulación del Ministerio Público por ley orgánica constitucional
+    85:
+      temas:
+        - Fiscal Nacional
+    86:
+      temas:
+        - Fiscales Regionales
+    87:
+      temas:
+        - Nombramiento Fiscales Regionales
+    88:
+      temas:
+        - Fiscales Adjuntos
+    89:
+      temas:
+        - Remoción fiscales
+    90:
+      temas:
+        - Fuero fiscales
+    91:
+      temas:
+        - Superintendencia directiva, correccional y económica por parte del Fiscal Nacional
+capítulo_viii:
+  título: Tribunal Constitucional
+  artículos:
+    92:
+      temas:
+        - Integración del Tribunal Constitucional
+    93:
+      temas:
+        - Atribuciones del Tribunal Constitucional
+    94:
+      temas:
+        - Impugnación decisiones del Tribunal Constitucional
+capítulo_ix:
+  título: Servicio electoral y justicia electoral
+  artículos:
+    94 bis:
+      temas:
+        - Servicio Electoral
+    95:
+      temas:
+        - Tribunal Calificador de Elecciones
+    96:
+      temas:
+        - Tribunales Electorales Regionales
+    97:
+      temas:
+        - Financiamiento Justicia Electoral
+capítulo_x:
+  título: Contraloría General de la República
+  artículos:
+    98:
+      temas:
+        - Atribuciones Contraloría
+        - Control de legalidad
+        - Facultades fiscalizadoras
+        - Requisitos para ser Contralor.
+    99:
+      temas:
+        - Toma de razón
+        - Organización de Contraloría mediante ley orgánica constitucional
+    100:
+      temas:
+        - Autorización para pagos por Tesorerías del Estado
+capítulo_xi:
+  título: Fuerzas Armadas, de Orden y de Seguridad
+  artículos:
+    101:
+      temas:
+        - Composición y dependiencia de Fuerzas Armadas y de Fuerzas de Orden y Seguridad Pública
+        - Principios de obedencia, no deliberancia y jerarquía
+    102:
+      temas:
+        - Incorporación a Fuerzas Armadas y de Carabineros
+    103:
+      temas:
+        - Control de armas
+    104:
+      temas:
+        - Comandantes de Fuerzas Armadas y Carabineros
+    105:
+      temas:
+        - Nombramientos, ascensos y retiros de los oficiales de las Fuerzas Armadas, de Orden y de Seguridad
+capítulo_xii:
+  título: Consejo de Seguridad Nacional
+  artículos:
+    106:
+      temas:
+        - Integración y atribuciones del COSENA
+    107:
+      temas:
+        - Sesiones, acuerdos y funcionamiento del COSENA
+capítulo_xiii:
+  título: Banco Central
+  artículos:
+    108:
+      temas:
+        - Autonomía del Banco Central
+    109:
+      temas:
+        - Atribuciones del Banco Central
+capítulo_xiv:
+  título: Gobierno y administración interior del Estado
+  artículos:
+    110:
+      temas:
+        - División del territorio de la República
+    111:
+      temas:
+        - Gobierno Regional
+    112:
+      temas:
+        - Norma derogada
+    113:
+      temas:
+        - Consejo Regional
+    114:
+      temas:
+        - Transferencias a gobiernos regionales
+    115:
+      temas:
+        - Principio de desarrollo territorial armónico y equitativo
+    115 bis:
+      temas:
+        - Delegación presidencial regional
+    116:
+      temas:
+        - Delegación presidencial provincial
+    117:
+      temas:
+        - Encargados de delegados presidenciales provinciales
+    118:
+      temas:
+        - Administración comunal 
+        - Municipalidades 
+        - Alcaldes
+    119:
+      temas:
+        - Concejo Municipal
+    120:
+      temas:
+        - Instalación y fusión de municipalidades
+    121:
+      temas:
+        - Facultades de municipalidades en materia de empleo y organización interna
+    122:
+      temas:
+        - Autonomía municipal en la administración de sus finanzas
+    123:
+      temas:
+        - Coordinación municipalidades 
+        - Áreas metropolitanas
+    124:
+      temas:
+        - Requisitos, incompatibilidades y prohibiciones para cargos de la administración comunal, provincial y regional
+    125:
+      temas:
+        - Causales de cesación en el cargo de gobernador regional, de alcalde, consejero regional y concejal.
+    126:
+      temas:
+        - Cuestiones de competencia
+    126 bis:
+      temas:
+        - Territorios especiales
+capítulo_xv:
+  título: Reforma de la Constitución
+  artículos:
+    127:
+      temas:
+        - Inicio proyectos de reforma constitucional 
+        - Quórums de aprobación   
+    128:
+      temas:
+        - Procedimiento para proyectos de reforma constitucional una vez aprobados por las Cámaras
+    129:
+      temas:
+        - Convocatoria a plebiscito
+disposiciones_transitorias:
+  título: ''
+  artículos:
+    primera:
+      temas:
+        - Ultraactividad disposiciones previas a la Constitución.
+    segunda:
+      temas:
+        - Ultraactividad reglas previas a Código de Minería.
+    tercera:
+      temas:
+        - Ultraactividad reglas aplicables a la gran minería del cobre.
+    cuarta:
+      temas:
+        - Vigencia leyes materias que de leyes orgánicas constitucionales o aprobadas con quórum calificado.
+    quinta:
+      temas:
+        - Vigencia leyes que regulen materias no comprendidas en reserva de ley.
+    sexta:
+      temas:
+        - Vigencia leyes de afectación tributos a destino determinado.
+    séptima:
+      temas:
+        - Indulto delitos anteriores a 1990.
+    octava:
+      temas:
+        - Vigencia normas Ministerio Público.
+    novena:
+      temas:
+        - Reglas para primer nombramiento de ciertos cargos.
+    décima:
+      temas:
+        - Entrada en vigencia normas sobre atribuciones de municipalidades.
+    décimo_primera:
+      temas:
+        - Inhabilidades para integrar Corte Suprema tras reforma constitucional.
+    décimo_segunda:
+      temas:
+        - Mandato presidencial de seis años sin reelección.
+    décimo_tercera:
+      temas:
+        - Integración del Senado - Modificaciones a la Ley Orgánica Constitucional sobre Votaciones Populares y Escrutinios que digan relación con el número de senadores y diputados,.
+    décimo_cuarta:
+      temas:
+        - Reemplazo de los entonces actuales Ministros y nombramiento de los nuevos integrantes del Tribunal Constitucional.
+    décimo_quinta:
+      temas:
+        - Tratados internacionales aprobados por el Congreso Nacional con anterioridad a la entrada en vigor de la reforma constitucional.
+    décimo_sexta:
+      temas:
+        - Vigencia reformas introducidas al Capítulo VIII.
+    décimo_séptima:
+      temas:
+        - Regla sobre dependencia de as Fuerzas de Orden y Seguridad Pública previo a creación del Ministerio de Seguridad Publica.
+    decimoctava:
+      temas:
+        - Entrada en vigencia modificaciones dispuestas en el artículo 57, Nº 2.
+    décimo_novena:
+      temas:
+        - Suspensión del derecho de sufragio de las personas procesadas por hechos anteriores al 16 de Junio de 2005.
+    vigésima:
+      temas:
+        - Reclamaciones por la conducta ética de los profesionales que no pertenezcan a colegios profesionales.
+    vigésimo_primera:
+      temas:
+        - Vigencia reforma introducida en el numeral 10º del artículo 19.
+    vigésimo_segunda:
+      temas:
+        - Vigencia de estatutos especiales a que se refiere el artículo 126 bis.
+    vigésimo_tercera:
+      temas:
+        - Vigencia reformas introducidas a los artículos 15 y 18 sobre voluntariedad del voto e incorporación al registro electoral.
+    vigésimo_cuarta:
+      temas:
+        - Reconocimiento jurisdicción Corte Penal Internacional.
+    vigésimo_quinta:
+      temas:
+        - Entrada en vigencia de modificación introducida en el inciso cuarto del artículo 60
+    vigésimo_sexta:
+      temas: []
+    vigésimo_séptima:
+      temas: []
+    vigésimo_octava:
+      temas: []
