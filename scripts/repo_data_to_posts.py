@@ -2,6 +2,7 @@ import difflib
 from git import Repo
 from datetime import datetime
 from diff_match_patch import diff_match_patch
+import re
 
 REPO_PATH = 'data/constitucion_chile'
 BUILT_FILES_PATH = '_posts/'
@@ -122,8 +123,8 @@ def diffed_markdown(previous, current):
     diffed = diff_contents(previous, current)
     return compile_diffed_markdown(diffed)
 
-def build_jekyll_post(content, title, date, author, previous_post_name, modified_sections, law_content):
-    header = build_header(title, date, author, previous_post_name, modified_sections)
+def build_jekyll_post(content, title, date, author, modified_sections, law_content):
+    header = build_header(title, date, author, modified_sections)
     law_content = build_law_content_section(law_content)
     return f'''---\n{header}\n---\n{content}\n\n{law_content}'''
 
@@ -133,14 +134,13 @@ def build_law_content_section(law_content):
         lines.append(line.strip())
     return '\n'.join(lines)
 
-def build_header(title, date, author, previous_post_name, modified_sections):
+def build_header(title, date, author, modified_sections):
     lines = [
         'layout: post',
         f'title: "{title.replace("_", " ").capitalize()}"',
         f'description: "Firmada por {author} el {date}"',
         f'date: {date}',
         f'author: {author}',
-        f'previous_post: {previous_post_name}',
         'modified_sections:'
     ]
     for section in modified_sections:
@@ -152,13 +152,10 @@ def build_header(title, date, author, previous_post_name, modified_sections):
 if __name__=='__main__':
     commits = get_sorted_commits()
     previous_commit_content = None
-    previous_post_name = None
     for commit in commits:
         title = commit.message.split('\n')[0].replace(' ', '_')
         date = datetime.fromtimestamp(commit.authored_date).date()
         author = commit.author
-        post_name = f'{date}-{title}'
-        print(post_name)
         blobs = get_sorted_blobs_from_commit(commit)
         current_commit_content = concatenate_blobs(blobs)
         current_commit_content = standardize_titles(current_commit_content)
@@ -172,12 +169,13 @@ if __name__=='__main__':
                                         title,
                                         date,
                                         author,
-                                        previous_post_name,
                                         modified_sections,
                                         commit.message)
-        previous_post_name = post_name
         previous_commit_content = current_commit_content
 
-        filepath = BUILT_FILES_PATH + f'{post_name}.md'
+        formatted_title = re.sub('[^A-Za-z0-9]+', '', title)
+        post_file_name = f'{date}-{formatted_title}.md'
+        filepath = BUILT_FILES_PATH + post_file_name
+        print(f'writing to file {filepath}')
         write_to_path(jekyll_post, filepath)
 
