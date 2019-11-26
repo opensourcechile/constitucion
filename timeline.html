@@ -8,8 +8,17 @@ title: Línea de tiempo
     {% for step in steps %}
     <div class="item">
         <i class="vertical-line"></i>
-        <h2 class="item-date">{{ step.date | date: '%m/%Y' }}{% if step.enddate %} -
-            {{ step.enddate | date: '%m/%Y' }}{% endif %}</h2>
+        <h2 class="item-date">
+            {{ step.date | date: "%-d" }} de
+            {% assign m = step.date | date: "%-m" | minus: 1 %}
+            {{ site.data.es_months.months[m] }} de
+            {{ step.date | date: "%Y" }}
+            {% if step.enddate %} -
+                {{ step.enddate | date: "%-d" }} de
+                {% assign m = step.enddate | date: "%-m" | minus: 1 %}
+                {{ site.data.es_months.months[m] }} de
+                {{ step.enddate | date: "%Y" }}
+            {% endif %}</h2>
         <div class="card-panel">
             <h3 class="card-title">
                 <a href="{{step.url}}">
