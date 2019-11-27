@@ -20,6 +20,8 @@ dibujos, etc.
 con alguna mejora para el sitio. Puedes usar tus propias ideas, tomar ideas 
 de la sección de Issues, o avanzar con alguna de las cosas en la lista de pendientes.
 
+Es importante seguir nuestro [código de conducta](CODE_OF_CONDUCT.md)
+
 ## Cosas pendientes
 
 Ver la sección de [Issues](https://github.com/opensourcechile/constitucion/issues)
