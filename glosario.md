@@ -31,6 +31,14 @@ Aunque no tiene una definición legal, se refiere a la instancia en la cual un g
 
 Considera los principios esenciales de ordenamiento constitucional que configuran la organización del Estado y sus límites. Este conjunto de normas agrupadas debe llevar al papel aquellos valores perdurables sobre los que se construye la sociedad. En la Constitución actual están en el Capítulo 1 y considera la dignidad, la libertad, la igualdad, el bien común y las bases del Estado de Derecho, entre otras.
 
+## Decreto
+
+Norma que formaliza una decisión adoptada por el Poder Ejecutivo y que tiene una jerarquía inferior a las leyes. En el caso de la Constitución, en el año 2005 la reforma a la Constitución se efectuó mediante la ley Nº20.050, pero para efectos de ordenar y hacer más fácil la lectura de las modificaciones, el Presidente de la República dictó además un decreto que fijó el texto refundido, coordinado y sistematizado de la Constitución.
+
+## Decreto ley
+
+Norma adoptada por el Poder Ejecutivo pero que tiene la misma jerarquía que una ley, a pesar de no haber sido discutida en el Congreso. 
+
 ## Derechos civiles y políticos
 
 Es una clasificación de los derechos con un doble fundamento histórico y jurídico. Histórico, como reflejo de la filosofía liberal del siglo XIX y, jurídico, como garantía de efectividad normativa de la DUDH a través del PIDCP y sus instrumentos complementarios.
@@ -46,6 +54,10 @@ Es una clasificación de los derechos con un doble fundamento histórico y jurí
 ## Derechos fundamentales
 
 Son los atributos individuales y sociales recogidos en la Constitución, directa o indirectamente, protegiendo su ejercicio a través de un complejo sistema de garantías jurídicas y limitando al Legislador. Su objetivo es permitir a todas las personas la plena realización de su especial dignidad. Entre estos derechos se encuentran los derechos civiles y políticos, y los derechos económicos, sociales y culturales.
+
+## Ley
+
+Declaración de la voluntad soberana que, manifestada en la forma prescrita por la Constitución, manda, prohíbe o permite. En palabras simples, es una norma aprobada por el Congreso y promulgada por el Presidente de la República, con una jerarquía inferior a la Constitución, pero superior a las normas reglamentarias o administrativas dictadas por el Poder Ejecutivo.
 
 ## Poder Ejecutivo
 
