@@ -55,6 +55,10 @@ Es una clasificación de los derechos con un doble fundamento histórico y jurí
 
 Son los atributos individuales y sociales recogidos en la Constitución, directa o indirectamente, protegiendo su ejercicio a través de un complejo sistema de garantías jurídicas y limitando al Legislador. Su objetivo es permitir a todas las personas la plena realización de su especial dignidad. Entre estos derechos se encuentran los derechos civiles y políticos, y los derechos económicos, sociales y culturales.
 
+## Grupos Intermedios
+
+Organizaciones voluntariamente creadas por la persona humana, ubicadas entre el individuo y el estado, para que cumplan con sus fines específicos a través de los medios de que dispongan, con autonomía frente al aparato publico.
+
 ## Ley
 
 Declaración de la voluntad soberana que, manifestada en la forma prescrita por la Constitución, manda, prohíbe o permite. En palabras simples, es una norma aprobada por el Congreso y promulgada por el Presidente de la República, con una jerarquía inferior a la Constitución, pero superior a las normas reglamentarias o administrativas dictadas por el Poder Ejecutivo.
@@ -74,4 +78,4 @@ Constituye una de las tres manifestaciones del Poder del Estado, en conformidad 
 *Fuentes*:
 - García, Gonzalo y Contreras, Pablo (2014): Diccionario Constitucional Chileno, Santiago, Tribunal Constitucional
 - Emol.com - https://www.emol.com/noticias/Nacional/2019/11/21/967833/Glosario-Constitucion-Conceptos-Definiciones.html
-
+- Cea Egaña, José Luis: Glosario, apuntes para alumnos.
