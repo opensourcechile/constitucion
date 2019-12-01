@@ -1,7 +1,4 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
 list_title: Leyes que modifican la Constitución
 title: Cómo funciona
@@ -47,5 +44,5 @@ de la sección de Issues, o avanzar con alguna de las cosas en la lista de pendi
 
 ## Cosas pendientes
 
-Tenemos una lista de mejoras por haer en la sección de [Issues](https://github.com/opensourcechile/constitucion/issues) del repositorio.
+Tenemos una lista de mejoras por hacer en la sección de [Issues](https://github.com/opensourcechile/constitucion/issues) del repositorio.
 

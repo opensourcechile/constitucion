@@ -1,24 +1,36 @@
 from utils import to_title_format, remove_special_chars
 from unidecode import unidecode
 from unicodedata import normalize
+from typing import Tuple
+from git import Commit
 
-class Chapter():
+
+class Chapter:
 
     def __init__(self, key, topic, articles_data):
         self.key = key
         self.topic = topic
         self.formatted_title = to_title_format(key)
-        self.articles = self.process_articles(articles_data)
+        self.articles = Chapter.process_articles(articles_data)
 
-
-    def process_articles(self, articles_data):
+    @staticmethod
+    def process_articles(articles_data):
         tree = []
         for key in articles_data:
             article = Article(key, articles_data[key])
             tree.append(article)
         return tree
 
-    def process_blamed(self, blamed):
+    def get_all_commits(self):
+        blamed_lines = [bl for a in self.articles for bl in a.blamed_lines]
+        return set(bl[0] for bl in blamed_lines)
+
+    @staticmethod
+    def get_all_commits_in_chapters(chapters):
+        commits = [commit for c in chapters for commit in c.get_all_commits()]
+        return set(commits)
+
+    def process_blamed(self, blamed: Tuple[Commit, str]):
         current_article = None
         lines_for_article = []
         for commit, lines in blamed:
@@ -32,7 +44,6 @@ class Chapter():
                 else:
                     lines_for_article.append((commit, line))
         current_article.blamed_lines = lines_for_article
-                
 
     def get_article_by_markdown(self, markdown_line):
         article_key = remove_special_chars(markdown_line)
@@ -53,6 +64,7 @@ class Chapter():
 
         raise ArticleNotFoundException(markdown_line, article_key)
 
+    @staticmethod
     def is_article_title(title):
         norm_title = normalize('NFKD', title)
         return norm_title.strip().startswith(normalize('NFKD', '### '))
