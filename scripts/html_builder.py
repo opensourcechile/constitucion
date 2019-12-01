@@ -6,13 +6,22 @@ from typing import List
 
 
 def article_to_html(article: Article):
-    result = '<details>\n'
-    result += f'  <summary><span class="summary-title">Artículo {article.formatted_title}</span>'
-    result += f'\n    <span class="post-meta">Temas: {", ".join(article.topics)}</span>\n  </summary>\n'
+    result = f'''
+<details>
+  <summary>
+    <span class="summary-title">
+        Artículo {article.formatted_title}
+    </span>
+    <span class="post-meta">
+        Temas: {", ".join(article.topics)}
+    </span>
+  </summary>
+  <div class="article-content">
+'''
     for commit, line in article.blamed_lines:
         if len(line) > 1:
-            result += f'  <div class="article-line" data-template="{commit.hexsha}">{line}\n  </div>\n'
-    result += '</details>\n'
+            result += f'    <p class="article-line" data-template="{commit.hexsha}">{line}\n    </p>\n'
+    result += '  </div>\n</details>\n'
     return result
 
 
