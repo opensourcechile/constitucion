@@ -1,15 +1,21 @@
-def article_to_html(article):
+from datetime import datetime
+
+from chapter import Chapter, Article
+from typing import List
+
+
+def article_to_html(article: Article):
     result = '<details>\n'
     result += f'  <summary><span class="summary-title">Artículo {article.formatted_title}</span>'
     result += f'\n    <span class="post-meta">Temas: {", ".join(article.topics)}</span>\n  </summary>\n'
     for commit, line in article.blamed_lines:
         if len(line) > 1:
-            result += f'  <div>{line}\n  </div>\n'
+            result += f'  <div class="article-line" data-template="{commit.hexsha}">{line}\n  </div>\n'
     result += '</details>\n'
     return result
 
 
-def chapter_to_html(chapter):
+def chapter_to_html(chapter: Chapter):
     result = ''
     result += f'<h2>{chapter.formatted_title}</h2>\n'
     result += f'<h3>{chapter.topic}</h3>\n'
@@ -26,11 +32,45 @@ def build_header():
     return result
 
 
-def build_html_document(chapters):
+def build_templates(chapters):
+    result = '<div style="display: none;">\n'
+    commits = Chapter.get_all_commits_in_chapters(chapters)
+    for commit in commits:
+        result += build_commit_template(commit)
+    result += '</div>\n'
+    return result
+
+
+def build_script():
+    result = '<script>\n'
+    script = '''  tippy('.article-line', {
+    content(reference) {
+      const id = reference.getAttribute('data-template');
+      const template = document.getElementById(id);
+      return template.innerHTML;
+    },
+  });\n'''
+    result += script
+    result += '</script>\n'
+    return result
+
+
+def build_commit_template(commit):
+    title = commit.message.split('\n')[0]
+    date = datetime.fromtimestamp(commit.authored_date).date()
+    result = f'  <div id="{commit.hexsha}">\n'
+    result += f'    {title} - {date}\n'
+    result += '  </div>\n'
+    return result
+
+
+def build_html_document(chapters: List[Chapter]):
     result = ''
     result += build_header()
     for chapter in chapters:
         result += chapter_to_html(chapter)
         result += '\n'
+    result += build_templates(chapters)
+    result += build_script()
     return result
 
