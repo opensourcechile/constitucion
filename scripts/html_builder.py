@@ -1,4 +1,5 @@
 from datetime import datetime
+import re
 
 from chapter import Chapter, Article
 from typing import List
@@ -49,6 +50,8 @@ def build_script():
       const template = document.getElementById(id);
       return template.innerHTML;
     },
+    interactive: true,
+    theme: 'light'
   });\n'''
     result += script
     result += '</script>\n'
@@ -57,9 +60,14 @@ def build_script():
 
 def build_commit_template(commit):
     title = commit.message.split('\n')[0]
+    formatted_title = re.sub('[^A-Za-z0-9]+', '', title)
     date = datetime.fromtimestamp(commit.authored_date).date()
+    date_url = date.strftime('%Y/%m/%d')
+    link = f'/{date_url}/{formatted_title}.html'
     result = f'  <div id="{commit.hexsha}">\n'
-    result += f'    {title} - {date}\n'
+    result += f'    <a href="{link}">\n'
+    result += f'    Última modificación: {title} - {date}\n'
+    result += '    </a>\n'
     result += '  </div>\n'
     return result
 
