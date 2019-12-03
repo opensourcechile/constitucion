@@ -10,7 +10,7 @@ IGNORED_FILES = [
     '.gitignore',
     '.vscode'
 ]
-DESTINATION_PATH = 'actual.html'
+DESTINATION_PATH = 'index.html'
 
 
 def get_structure():

@@ -13,6 +13,7 @@ a las versiones de los artículos que te interesan.
 
 El código de este blog es abierto, y se encuentra accesible en [su repositorio en Github](https://github.com/opensourcechile/constitucion)
 
+
 <div class="added" markdown="1">El texto en color verde como éste, representa el texto agregado con una ley a la Constitución.
 </div>
 
@@ -21,12 +22,17 @@ El código de este blog es abierto, y se encuentra accesible en [su repositorio 
 
 El texto sin colores es el que no ha sido modificado.
 
+Al tocar o hacer click sobre el título de un artículo puedes desplegar su contenido.
+
+Al tocar o poner el puntero sobre los distinto incisos de la [Constitución actual](/)
+puedes ver cuál fue la última ley que lo modificó.
+
 
 ## Secciones
 
 - [Línea de tiempo](/timeline.html)
 - [Glosario](/glosario.md)
-- [Constitución actual](/actual.html)
+- [Constitución actual](/)
 
 ## Cómo colaborar
 
