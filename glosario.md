@@ -1,19 +1,19 @@
 # Glosario
 
-## Constitución
-
-Es la norma de mayor jerarquía del ordenamiento jurídico, que configura la forma y validez de la creación de todo el Derecho en una sociedad, regula la organización y funcionamiento de los poderes públicos. Su finalidad es limitar el poder político y garantizar los derechos y libertades de las personas.
-
 ## Artículo
 
 Cada capítulo de la Constitución Política se compone de distintos artículos, los que desarrollan cada una de las disposiciones numeradas de la Carta Magna. El actual escrito vigente en Chile está compuesto de 129 artículos.
 
+## Asamblea Constituyente
+
+Aunque no tiene una definición legal, se refiere a la instancia en la cual un grupo de representantes ciudadanos, se reúne para diseñar y discutir la redacción de una nueva Constitución o realizar reformas constitucionales, que se aplicarán a toda la población del país. El abogado Jorge Correa Sutil explicó en El Mercurio que "sus integrantes son todos elegidos especialmente para deliberar la nueva Constitución, sin integración de parlamentarios". Dentro de las más reconocidas históricamente se encuentran el proceso francés de 1789 y la Convención de Filadelfia de 1787, en Estados Unidos.
+
+## Bases de la institucionalidad
+
+Considera los principios esenciales de ordenamiento constitucional que configuran la organización del Estado y sus límites. Este conjunto de normas agrupadas debe llevar al papel aquellos valores perdurables sobre los que se construye la sociedad. En la Constitución actual están en el Capítulo 1 y considera la dignidad, la libertad, la igualdad, el bien común y las bases del Estado de Derecho, entre otras.
+
 ## Capítulo
 La actual Constitución, que está vigente desde 1980, está dividida en base a 15 capítulos, que a su vez están compuestos de artículos. Se separan distintas materias como Nacionalidad y Ciudadanía, Derechos y Deberes Constitucionales, Gobierno y Congreso Nacional.
-
-## Inciso
-
-Los incisos son los distintos párrafos de un artículo, separados por un punto aparte.
 
 ## Ciudadanos
 
@@ -23,13 +23,9 @@ Según lo define la Constitución actual, son todos los chilenos que hayan cumpl
 
 Grupo compuesto por un panel de expertos, designados por los partidos que suscribieron el "Acuerdo por la Paz Social y la Nueva Constitución", que tiene el objetivo de determinar todos los aspectos indispensables para el proceso que podría llevar a una nueva Carta Magna, aclarando todos los puntos que no quedaron zanjados en el documento firmado por las fuerzas políticas, incluyendo la forma en que se elegirán
 
-## Asamblea Constituyente
+## Constitución
 
-Aunque no tiene una definición legal, se refiere a la instancia en la cual un grupo de representantes ciudadanos, se reúne para diseñar y discutir la redacción de una nueva Constitución o realizar reformas constitucionales, que se aplicarán a toda la población del país. El abogado Jorge Correa Sutil explicó en El Mercurio que "sus integrantes son todos elegidos especialmente para deliberar la nueva Constitución, sin integración de parlamentarios". Dentro de las más reconocidas históricamente se encuentran el proceso francés de 1789 y la Convención de Filadelfia de 1787, en Estados Unidos.
-
-## Bases de la institucionalidad
-
-Considera los principios esenciales de ordenamiento constitucional que configuran la organización del Estado y sus límites. Este conjunto de normas agrupadas debe llevar al papel aquellos valores perdurables sobre los que se construye la sociedad. En la Constitución actual están en el Capítulo 1 y considera la dignidad, la libertad, la igualdad, el bien común y las bases del Estado de Derecho, entre otras.
+Es la norma de mayor jerarquía del ordenamiento jurídico, que configura la forma y validez de la creación de todo el Derecho en una sociedad, regula la organización y funcionamiento de los poderes públicos. Su finalidad es limitar el poder político y garantizar los derechos y libertades de las personas.
 
 ## Decreto
 
@@ -58,6 +54,10 @@ Son los atributos individuales y sociales recogidos en la Constitución, directa
 ## Grupos Intermedios
 
 Organizaciones voluntariamente creadas por la persona humana, ubicadas entre el individuo y el estado, para que cumplan con sus fines específicos a través de los medios de que dispongan, con autonomía frente al aparato publico.
+
+## Inciso
+
+Los incisos son los distintos párrafos de un artículo, separados por un punto aparte.
 
 ## Ley
 
