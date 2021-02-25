@@ -4,7 +4,7 @@
 
 Cada capítulo de la Constitución Política se compone de distintos artículos, los que desarrollan cada una de las disposiciones numeradas de la Carta Magna. El actual escrito vigente en Chile está compuesto de 129 artículos.
 
-## Asamblea Constituyente
+## <a href="https://www.bcn.cl/formacioncivica/detalle_guia?h=10221.3/45676">Asamblea Constituyente</a>
 
 Asamblea Constituyente: los ciudadanos, en elecciones libres, competitivas y limpias eligen a los miembros que conforman la Asamblea, la cual elaborará la nueva Constitución Política del Estado. Este procedimiento fue utilizado para la Constitución de Estados Unidos de Norteamérica; las constituciones francesas de 1791, 1848 y 1875; la italiana de 1947; la peruana de 1979; la de Brasil en 1988; Colombia en 1991, entre otras.
 
