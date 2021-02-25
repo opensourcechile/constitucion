@@ -6,7 +6,7 @@ Cada capítulo de la Constitución Política se compone de distintos artículos,
 
 ## Asamblea Constituyente
 
-Aunque no tiene una definición legal, se refiere a la instancia en la cual un grupo de representantes ciudadanos, se reúne para diseñar y discutir la redacción de una nueva Constitución o realizar reformas constitucionales, que se aplicarán a toda la población del país. El abogado Jorge Correa Sutil explicó en El Mercurio que "sus integrantes son todos elegidos especialmente para deliberar la nueva Constitución, sin integración de parlamentarios". Dentro de las más reconocidas históricamente se encuentran el proceso francés de 1789 y la Convención de Filadelfia de 1787, en Estados Unidos.
+Asamblea Constituyente: los ciudadanos, en elecciones libres, competitivas y limpias eligen a los miembros que conforman la Asamblea, la cual elaborará la nueva Constitución Política del Estado. Este procedimiento fue utilizado para la Constitución de Estados Unidos de Norteamérica; las constituciones francesas de 1791, 1848 y 1875; la italiana de 1947; la peruana de 1979; la de Brasil en 1988; Colombia en 1991, entre otras.
 
 ## Bases de la institucionalidad
 
@@ -78,4 +78,5 @@ Constituye una de las tres manifestaciones del Poder del Estado, en conformidad 
 *Fuentes*:
 - García, Gonzalo y Contreras, Pablo (2014): Diccionario Constitucional Chileno, Santiago, Tribunal Constitucional
 - Emol.com - https://www.emol.com/noticias/Nacional/2019/11/21/967833/Glosario-Constitucion-Conceptos-Definiciones.html
+- Biblioteca del Congreso Nacional de Chile - https://www.bcn.cl/formacioncivica/detalle_guia?h=10221.3/45676
 - Cea Egaña, José Luis: Glosario, apuntes para alumnos.
