@@ -3,7 +3,7 @@ diff-match-patch==20181111
 gitdb2==2.0.6
 GitPython==3.0.5
 pbr==5.4.4
-PyYAML==5.1.2
+PyYAML==5.4
 six==1.13.0
 smmap2==2.0.5
 stevedore==1.31.0
